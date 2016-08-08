@@ -1,5 +1,8 @@
-:: Called from Notepad++ Run  
-:: C:\Progra~2\Notepad++ "$(CURRENT_DIRECTORY)" "$(NAME_PART)"  
+:: 'Progra~2' refers to 'Program Files (x86)', 'Progra~1', 'Program Files'
+:: Please ensure that you have Notepad++, NppExec, Miktex and SumatraPDF installed
+:: In NppExec, add lines 4 and 5.
+:: NPP_SAVE
+:: "C:\Progra~2\Notepad++\miktex_to_latex.bat" "$(CURRENT_DIRECTORY)" "$(NAME_PART)" "$(NAME_PART).pdf"
 
 :: Change Drive and  to File Directory  
 %~d1  
